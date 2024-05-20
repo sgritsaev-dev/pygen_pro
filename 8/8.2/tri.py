@@ -3,4 +3,5 @@ def triangle(n):
         print(n*'*')
         triangle(n-1)
 
+
 triangle(int(input()))
